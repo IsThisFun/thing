@@ -1,4 +1,5 @@
 puts "Welcome to the Guessing Game!!!"
+puts
 puts "What's your name?"
 name = gets.chomp.to_i
 puts "Pick your max range"
@@ -6,7 +7,7 @@ large_num = gets.chomp.to_i
 puts "How many tries would you like?"
 num_tries = gets.chomp.to_i
 ran_num = rand(large_num) + 1
-num_guess = 0
+guess = 0
 tries = 0
 puts "Go!!!"
 until guess == ran_num || tries == large_num
