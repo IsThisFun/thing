@@ -1,6 +1,7 @@
 puts "Welcome to the Guessing Game!!!"
 puts
 puts "What's your name?"
+puts
 name = gets.chomp.to_i
 puts "Pick your max range"
 puts
@@ -12,11 +13,11 @@ ran_num = rand(large_num) + 1
 guess = 0
 tries = 0
 puts
-print "Go!!!"
+puts "Go!!!"
 until guess == ran_num || tries == large_num
 puts
 puts"----------------------------------------"
-print "Guess a number between 1 and #{large_num}"
+puts "Guess a number between 1 and #{large_num}"
 guess = gets.chomp.to_i
 if guess > ran_num 
   puts "------- Too High. Guess Lower --------"
