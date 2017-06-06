@@ -1,7 +1,5 @@
 puts "Welcome to the Guessing Game!!!"
 puts
-puts "What's your name?"
-puts
 name = gets.chomp.to_i
 puts "Pick your max range"
 puts
@@ -24,7 +22,10 @@ if guess > ran_num
 elsif guess < ran_num
   puts "------- Too Low. Guess Higher --------"  
 elsif guess == ran_num
-print "WOAH YOU'RE A WIZARD {#name}"
+print "WOAH YOU'RE A WIZARD"
+  1000.times do
+    puts "Winner!!!"
+  end
 end
 tries += 1
 limit = num_tries - tries 
@@ -32,7 +33,7 @@ print "You have #{limit} out of #{num_tries}"
 if tries == num_tries 
   print "GAME OVER"
   10000000.times do
-  print ":("
+  print "ERROR!!!"
   end
   end
   end
