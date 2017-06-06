@@ -27,7 +27,7 @@ limit = num_tries - tries
 puts "You have #{limit} out of #{num_tries}"
 if tries == num_tries 
   puts "GAME OVER"
-  10.times do
+  10000000.times do
   puts ":("
   end
   end
