@@ -1,13 +1,13 @@
-#user_input = ""
-#while user_input != 3 
-puts "Welcome to Ruby's Fun Game Pack!!!!!"
-puts "------------------------------------"
-puts "          Main Menu                 "
-puts "1. Guessing Game"
-puts "2. Rock, Paper, Scissors"
-puts "3. Quit"
-puts "Please enter your selection"
-user_input = gets.chomp.to_i
+user_input = ""
+while user_input != 3 
+  puts "Welcome to Ruby's Fun Game Pack!!!!!"
+  puts "------------------------------------"
+  puts "          Main Menu                 "
+  puts "1. Guessing Game"
+  puts "2. Rock, Paper, Scissors"
+  puts "3. Quit"
+  puts "Please enter your selection"
+  user_input = gets.chomp.to_i
   if user_input == 1
     puts "Welcome to the Guessing Game!!!"
     puts
@@ -53,4 +53,5 @@ elsif user_input == 2
 elsif user_input == 3
       puts "Bye"
   end
+end
 
