@@ -9,9 +9,9 @@ while user_input != 3
   puts "Please enter your selection"
   user_input = gets.chomp.to_i
   if user_input == 1
+    puts
     puts "Welcome to the Guessing Game!!!"
     puts
-    name = gets.chomp.to_i
     puts "Pick your max range"
     puts
     large_num = gets.chomp.to_i
@@ -41,7 +41,7 @@ while user_input != 3
     end
     tries += 1
     limit = num_tries - tries 
-    print "You have #{limit} out of #{num_tries}"
+    puts "You have #{limit} out of #{num_tries}"
     if tries == num_tries 
       print "GAME OVER"
       10000000.times do
@@ -50,6 +50,7 @@ while user_input != 3
     end
 elsif user_input == 2 
     puts "Under Construction"
+    puts 
 elsif user_input == 3
       puts "Bye"
   end
