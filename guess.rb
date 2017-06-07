@@ -44,8 +44,8 @@ while user_input != 3
     puts "You have #{limit} out of #{num_tries}"
     if tries == num_tries 
       print "GAME OVER"
-      10000000.times do
-      print "ERROR!!!"
+      1000.times do
+      print "You Lose!!!"
       end
     end
 elsif user_input == 2 
