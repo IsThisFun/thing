@@ -37,7 +37,6 @@ puts "Please enter your selection"
         puts "Winner!!!"
       end
     end
-    end
     tries += 1
     limit = num_tries - tries 
     print "You have #{limit} out of #{num_tries}"
@@ -45,7 +44,6 @@ puts "Please enter your selection"
       print "GAME OVER"
       10000000.times do
       print "ERROR!!!"
-      end
       end
     elsif user_input == 2 
       puts "Under Construction"
