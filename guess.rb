@@ -7,8 +7,8 @@ puts "1. Guessing Game"
 puts "2. Rock, Paper, Scissors"
 puts "3. Quit"
 puts "Please enter your selection"
-  #user_input = gets.chomp.to_1
-  #if user_input == 1
+user_input = gets.chomp.to_1
+  if user_input == 1
     puts "Welcome to the Guessing Game!!!"
     puts
     name = gets.chomp.to_i
@@ -52,5 +52,5 @@ puts "Please enter your selection"
       #puts "Under Construction"
     #elsif user_input == 3
       #puts "Bye"
-  #end
+  end
 #end
