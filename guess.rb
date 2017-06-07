@@ -38,6 +38,7 @@ puts "Please enter your selection"
         puts "Winner!!!"
       end
     end
+    end
     tries += 1
     limit = num_tries - tries 
     print "You have #{limit} out of #{num_tries}"
