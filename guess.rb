@@ -1,4 +1,5 @@
-while user_input != 3
+user_input = ""
+while user_input != 3 
 puts "Welcome to Ruby's Fun Game Pack!!!!!"
 puts "------------------------------------"
 puts "          Main Menu                 "
