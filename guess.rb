@@ -46,7 +46,6 @@ puts "Please enter your selection"
       print "ERROR!!!"
       end
       end
-      end
     elsif user_input == 2 
       puts "Under Construction"
     elsif user_input == 3
