@@ -49,8 +49,39 @@ while user_input != 3
       end
     end
 elsif user_input == 2 
-    puts "Under Construction"
     puts 
+    loop do #game loops to keep playing
+  
+  options = ["rock", "paper", "scissors"]
+   computer_choice = options[rand(options.length)]
+   #puts "computer choice is: " + computer_choice
+  puts "Rock, Paper, Scissors?"
+  puts "What's your choice?"
+  user_input = gets.chomp.downcase
+  
+  while !(user_input == "rock" || user_input == "paper" || user_input == "scissors")
+   puts "Invalid choice, enter Rock, Paper, or Scissors"
+   puts "What's your choice?"
+   user_input = gets.chomp.downcase
+  end 
+  if (user_input == "rock" || user_input == "paper" || user_input == "scissors")
+   if (user_input == computer_choice)
+     puts "We got the same, let's keep playing!"
+   elsif (user_input == "rock" && computer_choice == "scissors")
+     puts "computer choice is: " + computer_choice + " , you win! :)"
+   elsif (user_input == "rock" && computer_choice == "paper")
+     puts "computer choice is: " + computer_choice + " ,computer wins :("
+   elsif (user_input == "paper" && computer_choice == "scissors")
+     puts "computer choice is: " + computer_choice + " ,computer wins :("
+   elsif (user_input == "paper" && computer_choice == "rock")
+     puts "computer choice is: " + computer_choice + " , you win! :)"
+   elsif (user_input == "scissors" && computer_choice == "rock")
+     puts "computer choice is: " + computer_choice + " ,computer wins :("
+   elsif (user_input == "scissors" && computer_choice == "paper")
+     puts "computer choice is: " + computer_choice + " , you win! :)"
+   end
+  end
+
 elsif user_input == 3
       puts "Bye"
   end
