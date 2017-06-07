@@ -1,5 +1,6 @@
 user_input = ""
 while user_input != 3 
+ puts 
   puts "Welcome to Ruby's Fun Game Pack!!!!!"
   puts "------------------------------------"
   puts "          Main Menu                 "
@@ -64,19 +65,26 @@ elsif user_input == 2
   end 
   if (user_input == "rock" || user_input == "paper" || user_input == "scissors")
    if (user_input == computer_choice)
-     puts "We got the same, let's keep playing!"
+     puts
+     puts "We got the same,"
    elsif (user_input == "rock" && computer_choice == "scissors")
-     puts "computer choice is: " + computer_choice + " , you win! :)"
+     puts
+     puts "computer choice is: " + computer_choice + "You picked "+ user_input " , you win! :)"
    elsif (user_input == "rock" && computer_choice == "paper")
-     puts "computer choice is: " + computer_choice + " ,computer wins :("
+     puts
+     puts "computer choice is: " + computer_choice + " You picked "+ user_input " ,computer wins :("
    elsif (user_input == "paper" && computer_choice == "scissors")
-     puts "computer choice is: " + computer_choice + " ,computer wins :("
+     puts
+     puts "computer choice is: " + computer_choice +  "You picked "+ user_input " ,computer wins :("
    elsif (user_input == "paper" && computer_choice == "rock")
-     puts "computer choice is: " + computer_choice + " , you win! :)"
+     puts
+     puts "computer choice is: " + computer_choice +  "You picked "+ user_input " , you win! :)"
    elsif (user_input == "scissors" && computer_choice == "rock")
-     puts "computer choice is: " + computer_choice + " ,computer wins :("
+     puts
+     puts "computer choice is: " + computer_choice +  "You picked "+ user_input " ,computer wins :("
    elsif (user_input == "scissors" && computer_choice == "paper")
-     puts "computer choice is: " + computer_choice + " , you win! :)"
+     puts
+     puts "computer choice is: " + computer_choice +  "You picked "+ user_input " , you win! :)"
    end
   end
 
