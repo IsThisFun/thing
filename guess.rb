@@ -53,4 +53,4 @@ elsif user_input == 2
 elsif user_input == 3
       puts "Bye"
   end
-end
+
