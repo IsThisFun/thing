@@ -48,9 +48,9 @@ user_input = gets.chomp.to_i
       print "ERROR!!!"
       end
     end
-    #elsif user_input == 2 
-      #puts "Under Construction"
-    #elsif user_input == 3
-      #puts "Bye"
+elsif user_input == 2 
+    puts "Under Construction"
+elsif user_input == 3
+      puts "Bye"
   end
-#end
+end
