@@ -49,9 +49,7 @@ while user_input != 3
       end
     end
 elsif user_input == 2 
-    puts 
-    loop do #game loops to keep playing
-  
+    puts
   options = ["rock", "paper", "scissors"]
    computer_choice = options[rand(options.length)]
    #puts "computer choice is: " + computer_choice
