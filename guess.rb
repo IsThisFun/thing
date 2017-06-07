@@ -47,6 +47,7 @@ puts "Please enter your selection"
       10000000.times do
       print "ERROR!!!"
       end
+    end
     #elsif user_input == 2 
       #puts "Under Construction"
     #elsif user_input == 3
