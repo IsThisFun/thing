@@ -66,25 +66,25 @@ elsif user_input == 2
   if (user_input == "rock" || user_input == "paper" || user_input == "scissors")
    if (user_input == computer_choice)
      puts
-     puts "We got the same,"
+     puts "We got the same!!!"
    elsif (user_input == "rock" && computer_choice == "scissors")
      puts
-     puts "computer choice is: " + computer_choice "You picked "+ user_input " , you win! :)"
+     puts "computer choice is: " + computer_choice + " ,you win! :)"
    elsif (user_input == "rock" && computer_choice == "paper")
      puts
-     puts "computer choice is: " + computer_choice " You picked "+ user_input " ,computer wins :("
+     puts "computer choice is: " + computer_choice + " ,computer wins :("
    elsif (user_input == "paper" && computer_choice == "scissors")
      puts
-     puts "computer choice is: " + computer_choice "You picked "+ user_input " ,computer wins :("
+     puts "computer choice is: " + computer_choice + ",computer wins :("
    elsif (user_input == "paper" && computer_choice == "rock")
      puts
-     puts "computer choice is: " + computer_choice "You picked "+ user_input " , you win! :)"
+     puts "computer choice is: " + computer_choice + ", you win! :)"
    elsif (user_input == "scissors" && computer_choice == "rock")
      puts
-     puts "computer choice is: " + computer_choice  "You picked "+ user_input " ,computer wins :("
+     puts "computer choice is: " + computer_choice  ",computer wins :("
    elsif (user_input == "scissors" && computer_choice == "paper")
      puts
-     puts "computer choice is: " + computer_choice "You picked "+ user_input " , you win! :)"
+     puts "computer choice is: " + computer_choice + ", you win! :)"
    end
   end
 
